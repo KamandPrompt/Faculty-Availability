@@ -1,10 +1,36 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Login or Signup</title>
+ 	<title>Login or Signup</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../assets/css/login.css" type="text/css">
+		<link rel="stylesheet" href="../assets/css/Navbar.css" type="text/css">
 </head>
 <body>
-	<h2>Login Page</h2>
-</body>
-</html>
+  <!-- to add the navbar -->
+  <div class="navbar">
+  	 <span><strong>Faculty Availability</strong></span>
+  	 <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>  
+  	 <a href="http://iitmandi.ac.in/contact_directory_full.php" target="_blank"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  	 <a href="#">Common Page</a>
+  	 <a class="active" href="../index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+  </div> 
+<!-- login -->
+<div id="container">       
+  <form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <div id="lower">
+	<input type="checkbox"><label for="checkbox">Keep me logged in</label>
+	<input type="submit" value="Login">
+	</div>
+  </form>
+</div>
+<!-- footer -->
+<section class="footer">
+	<p align="center"> © All rights reserved | IIT Mandi </p>
+</section>

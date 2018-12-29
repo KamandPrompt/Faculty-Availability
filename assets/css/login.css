@@ -1,0 +1,109 @@
+/*formatting for background of the page and the fonts used */
+body {
+    background-image: url(../images/bg2.jpg);
+    background-color: transparent;
+    background-size: cover;
+    color: whitesmoke;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+/* font size for span tag */
+span {
+  font-size: 14pt;
+}
+
+/* formatting for the login box */
+#container {
+  position: fixed;
+  width: 350px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -170px;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+form {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+label {
+  color: black;
+  display: inline-block;
+  margin-left: 18px;
+  padding-top: 10px;
+  font-size: 14px;
+}
+/*formatting for para and links */
+p a {
+  font-size: 11px;
+  color: black;
+  float: right;
+  margin-top: -13px;
+  margin-right: 20px;
+ }
+ /*formatting for para and links on hovering mouse */
+p a:hover {
+  color: grey;
+}
+/* font setting for text used in the login form */
+input {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 13px;
+  outline: none;
+}
+/*formatting for the password box in form */
+input[type=text],
+input[type=password] {
+  color: black;
+  padding-left: 10px;
+  margin: 10px;
+  margin-top: 12px;
+  margin-left: 18px;
+  width: 290px;
+  height: 35px;
+  border: 1px solid whitesmoke;
+  border-radius: 2px;
+  box-shadow: inset 0 1.5px 3px grey, 0 0 0 5px white;
+}
+#lower {
+  background: white;
+  width: 100%;
+  height: 70px;
+  margin-top: 20px;
+}
+/*margin for the checkbox */
+input[type=checkbox] {
+margin-left: 20px;
+margin-top: 30px;
+}
+.check {
+margin-left: 3px;
+}
+/* formatting for the login button */
+input[type=submit] {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 80px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: normal;
+  color: black;
+  background-color: aquamarine; 
+  border-radius: 30px;
+  border: 0.5px solid aqua;
+  cursor: pointer;
+}
+/* formatting for the footer */  
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  section {
+    display: block;
+  }
