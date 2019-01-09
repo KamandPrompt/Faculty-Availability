@@ -11,7 +11,8 @@
       border-radius: 15px;
   }
   /* formatting for the tabs in the nav bar */
-  .navbar a {
+  .navbar > a, 
+  .dropbtn{
     border-radius: 25px;
     float: right;
     padding: 10px;
@@ -20,6 +21,7 @@
     font-size: 13px;
     margin-inline-end: 1%;
   }
+
   /* formatting for tabs when mouse is hovering over them */
   .navbar a:hover {
     color: whitesmoke;
@@ -30,7 +32,8 @@
   
   /* is this to make navbar responsive? */
   @media screen and (max-width: 500px) {
-      .navbar a {
+      .navbar a.
+      .dropbtn{
         float: none;
         display: block;
       }
